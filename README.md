@@ -7,8 +7,8 @@ The first part of the challenge is called PyBank. The instructions given task th
 
 Using Python, the csv datafile is imported and lists for month count and profit are created. Using a for loop to inerate through the dataset, rows are added to both empty lists. A second for loop is used to compare each new entry to the previous one, creating a list of monthly changes. Using max and min functions, we can then determine the months with the greatest increase and greatest decrease, respectively.
 
-
 Financial Analysis
+
 ------------------------------
 Total Months: 86
 Total Revenue: $22564198
