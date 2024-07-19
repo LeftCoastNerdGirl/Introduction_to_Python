@@ -1,4 +1,4 @@
-# python-challenge
+# Introduction to Python
 
 
 This project is an introduction to using Python to prepare data and perform analysis on it.
