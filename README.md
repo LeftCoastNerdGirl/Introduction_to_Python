@@ -1,10 +1,12 @@
 # python-challenge
 
+
 This project is an introduction to using Python to prepare data and perform analysis on it.
 
 The first part of the challenge is called PyBank. The instructions given task the student with creating a Python script to analyze the financial records of the example company. We were given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
 Using Python, the csv datafile is imported and lists for month count and profit are created. Using a for loop to inerate through the dataset, rows are added to both empty lists. A second for loop is used to compare each new entry to the previous one, creating a list of monthly changes. Using max and min functions, we can then determine the months with the greatest increase and greatest decrease, respectively.
+
 
 Financial Analysis
 ------------------------------
