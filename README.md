@@ -1,56 +1,13 @@
 # python-challenge
 
-PyBank Instructions
-In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
+This project is an introduction to using Python to prepare data and perform analysis on it.
 
-Your task is to create a Python script that analyzes the records to calculate each of the following values:
+The first part of the challenge is called PyBank. The instructions given task the student with creating a Python script to analyze the financial records of the example company. We were given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
-The total number of months included in the dataset
+Using Python, the csv datafile is imported and lists for month count and profit are created. Using a for loop to inerate through the dataset, rows are added to both empty lists. A second for loop is used to compare each new entry to the previous one, creating a list of monthly changes. Using max and min functions, we can then determine the months with the greatest increase and greatest decrease, respectively.
 
-The net total amount of "Profit/Losses" over the entire period
+The second part of the challenge is called PyPoll. In this Challenge, the student is tasked with helping a small, rural town modernize its vote-counting process. We were given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate".
 
-The changes in "Profit/Losses" over the entire period, and then the average of those changes
+Python was used to import the csv date file. Lists were created to store data from the file: candidates name, number of votes, and percent of overall votes. Using a for loop, the script moves through each row of data and stores the candidate's information in the created lists. Within the loop, the candidate name in the new row is compared to the list of candidates, to either update the vote count if candidate is listed, or append the candidate if they are not. The output of this loop is a summary of candidate names and their total votes.
 
-The greatest increase in profits (date and amount) over the entire period
-
-The greatest decrease in profits (date and amount) over the entire period
-
-Your analysis should align with the following results:
-
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $22564198
-Average Change: $-8311.11
-Greatest Increase in Profits: Aug-16 ($1862002)
-Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-PyPoll Instructions
-In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
-
-You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
-
-The total number of votes cast
-
-A complete list of candidates who received votes
-
-The percentage of votes each candidate won
-
-The total number of votes each candidate won
-
-The winner of the election based on popular vote
-
-Your analysis should align with the following results:
-
-Election Results
--------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+In an additional step, a for loop is again used to compare the candidate's total votes to the sum of all votes cast to calcuate the percent of total votes. These datapoints are then used to determine the winning candidate.
