@@ -7,15 +7,7 @@ The first part of the challenge is called PyBank. The instructions given task th
 
 Using Python, the csv datafile is imported and lists for month count and profit are created. Using a for loop to inerate through the dataset, rows are added to both empty lists. A second for loop is used to compare each new entry to the previous one, creating a list of monthly changes. Using max and min functions, we can then determine the months with the greatest increase and greatest decrease, respectively.
 
-Financial Analysis
-
-------------------------------
-Total Months: 86
-Total Revenue: $22564198
-Greatest Increase in Revenue: 16-Aug ($1862002)
-Greatest Decrease in Revenue: 14-Feb ($-1825558)
-
-
+![image](https://github.com/user-attachments/assets/dd9b190c-8ecf-4438-8e02-4e61eb241a69)
 
 
 The second part of the challenge is called PyPoll. In this Challenge, the student is tasked with helping a small, rural town modernize its vote-counting process. We were given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate".
@@ -24,13 +16,4 @@ Python was used to import the csv date file. Lists were created to store data fr
 
 In an additional step, a for loop is again used to compare the candidate's total votes to the sum of all votes cast to calcuate the percent of total votes. These datapoints are then used to determine the winning candidate.
 
-Election Results
----------------------------
-Total Votes: 369711
----------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
+![image](https://github.com/user-attachments/assets/7dd3b6d9-fcd8-42a4-8347-6e20441cf82b)
